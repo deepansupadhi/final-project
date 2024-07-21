@@ -1,0 +1,118 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .banner {
+    background-color: #2b4f60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .offers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .offer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .offer p {
+    margin: 10px 0;
+  }
+  
+  .offer button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    background-color: #ffe600;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .signup button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-deals {
+    text-align: center;
+  }
+  
+  .deal-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .deal-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .offer,
+    .deal-item {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .offer,
+    .deal-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .offers,
+    .deal-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .offer {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .banner,
+    .signup {
+      padding: 10px;
+    }
+  
+    .offer button,
+    .signup button {
+      padding: 8px 16px;
+    }
+  }

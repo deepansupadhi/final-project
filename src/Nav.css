@@ -1,0 +1,61 @@
+*{
+    padding: 0svh;
+}
+.WholeNavbar{
+width: 100%;
+}
+.Dummy{
+    background: #f5f5f5;
+    height: 40px;
+    font-size: 1rem;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.dummyleft{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+    padding: 11px 0;
+    span {
+        padding-right: 20px;
+        color: #848484;
+        font-weight: lighter;
+    }
+}
+.navbar{
+    border-bottom: 1px solid #d3d3d3;
+   
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.topnav{
+    width: 93%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 10px;
+  height: 8vh;
+
+  padding-top: 18px;
+}
+.icon.Div{
+    padding-left: 10px;
+    margin-left: 20px;
+    display:flex;
+    justify-content:space-around
+}
+.icon {
+    color: black;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
